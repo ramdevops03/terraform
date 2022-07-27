@@ -1,9 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-  #access_key = "AKIAYHHJV4DDY5L5RHFT"
-  #secret_key = "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"
-  access_key = "__access_key__"
-  secret_key = "__secret_key__"
+  access_key = "AKIAYHHJV4DDY5L5RHFT"
+  secret_key = "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"
 }
 
 resource "aws_instance" "project-iac" {
